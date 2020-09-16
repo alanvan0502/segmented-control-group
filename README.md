@@ -1,8 +1,25 @@
 # Segmented Control Group
 Segmented Control Group is a fully customisable ViewGroup for Android which is inspired (and has the same features as the [iOS Segmented Controls](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/))
 
-## Sample UI
+## How to get it
+### Gradle
+Step 1 - Add it in your root build.gradle at the end of repositories:
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2 - Add the dependency
+
+	dependencies {
+	        implementation 'com.github.alanvan0502:segmented-control-group:v1.0'
+	}
+    
+## Sample UI
+<img src=segmented-control.gif height=500/>
 
 ## Sample Usage
 
