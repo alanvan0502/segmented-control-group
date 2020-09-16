@@ -7,15 +7,10 @@
     tools:context=".MainActivity">
 
     <com.alanvan.segmented_control.SegmentedControlGroup
-        android:id="@+id/sub_configs"
+        android:id="@+id/segmented_control_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        app:preSelectedIndex="2"
-        app:customSliderColor="#0277BD"
-        app:customDividerColor="#0277BD"
-        app:customShadowColor="#01579B"
-        android:backgroundTint="#03A9F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,21 +18,18 @@
         <com.alanvan.segmented_control.SegmentedControlButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#E1F5FE"
             android:id="@+id/button1"
             android:text="@string/button_1"/>
 
         <com.alanvan.segmented_control.SegmentedControlButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#E1F5FE"
             android:id="@+id/button2"
             android:text="@string/button_2"/>
 
         <com.alanvan.segmented_control.SegmentedControlButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="#E1F5FE"
             android:id="@+id/button3"
             android:text="@string/button_3"/>
 
