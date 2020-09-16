@@ -60,9 +60,6 @@ class SegmentedControlGroup @JvmOverloads constructor(
         attrs?.let {
             val typedArray = context.obtainStyledAttributes(
                 it, R.styleable.SegmentedControlGroup, 0, 0)
-            selectedButtonIndex = typedArray.getInt(
-                R.styleable.SegmentedControlGroup_preSelectedIndex,
-                0)
             sliderColor = typedArray.getColor(
                 R.styleable.SegmentedControlGroup_customSliderColor,
                 ContextCompat.getColor(context, R.color.white)
