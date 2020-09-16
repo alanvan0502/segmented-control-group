@@ -1,0 +1,3 @@
+rootProject.name='Segmented Control'
+include ':app'
+include ':segmented-control'

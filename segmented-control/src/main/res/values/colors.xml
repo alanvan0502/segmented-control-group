@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="empty">#EFEFEF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGrey">#363636</color>
+    <color name="colorSegmentedControlShadow">#B6B6B6</color>
+    <color name="colorSegmentedControlDivider">#CCCCCC</color>
+    <color name="colorSegmentedControlBackground">#EEEEEE</color>
+</resources>

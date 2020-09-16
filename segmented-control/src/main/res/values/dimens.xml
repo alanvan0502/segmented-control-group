@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_internal">8dp</dimen>
+    <dimen name="spacing_internal_half">4dp</dimen>
+    <dimen name="spacing_internal_medium">6dp</dimen>
+    <dimen name="spacing_internal_small">2dp</dimen>
+    <dimen name="radius_medium_small">7dp</dimen>
+    <dimen name="radius_extra_small">5dp</dimen>
+    <dimen name="segmented_control_inset">2dp</dimen>
+</resources>

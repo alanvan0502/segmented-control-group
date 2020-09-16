@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentedControlGroup">
+        <attr name="preSelectedIndex" format="integer" />
+        <attr name="customSliderColor" format="color" />
+        <attr name="customDividerColor" format="color" />
+        <attr name="customShadowColor" format="color" />
+    </declare-styleable>
+</resources>
